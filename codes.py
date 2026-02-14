@@ -11,7 +11,7 @@ data.tail()
 data.shape
 #see column names
 data.columns
-#get full information
+#get full informationgit
 data.info()
 #summary statistics
 data.describe()
@@ -20,8 +20,8 @@ data.isnull().sum()
 # drop a column
 data.drop()
 
-data= data.drop("column_name", axis=1)
-# data.drop("age", axis=1, inplace=True)
+data= data.drop(columns="referredby")
+data.drop("referredby", axis=1, inplace=True)
 
 
 
