@@ -21,6 +21,9 @@ data.isnull().sum()
 data.drop()
 
 data= data.drop("column_name", axis=1)
-data.drop("age", axis=1, inplace=True)
+# data.drop("age", axis=1, inplace=True)
+
+
+
 
 
