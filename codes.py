@@ -15,3 +15,12 @@ data.columns
 data.info()
 #summary statistics
 data.describe()
+#check for missing values
+data.isnull().sum()
+# drop a column
+data.drop()
+
+data= data.drop("column_name", axis=1)
+data.drop("age", axis=1, inplace=True)
+
+
